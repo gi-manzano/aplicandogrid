@@ -8,6 +8,7 @@
       "img1 img2 img3"
       "copy footer contactos"
       ". . .";
+    justify-items: center;
   }
   
   .logo { grid-area: logo; }
@@ -87,7 +88,7 @@ nav ul li
           "copy ."
           "footer ."
           "contactos . ";
-        align-items: center;
+        justify-items: center;
       }
 
   }
