@@ -41,7 +41,7 @@
   div .nav
   { 
     grid-area: menu;
-    display: flex;
+    display: grid;
     justify-content: center;
     padding: 25px;
     padding-top: 0px;
@@ -68,4 +68,26 @@ nav ul li
       padding: 15px;
       text-align: center;
      
+  }
+
+  @media only screen and (min-width: 0px) and (max-width: 767px)
+  
+  {
+    .container {  display: grid;
+        grid-template-columns: auto repeat(2);
+        grid-template-rows: auto repeat(6);
+        gap: 2px 2px;
+        grid-auto-flow: row;
+        grid-template-areas:
+          "logo nav"
+          "img1 ."
+          "img2 ."
+          "img3 ."
+          "copy footer"
+          "contactos . ";
+        align-items: center;
+      }
+
+      .img1 {grid-area: img1;
+      width: 40%;}
   }
