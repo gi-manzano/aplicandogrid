@@ -75,11 +75,12 @@ nav ul li
   {
     .container {  display: grid;
         grid-template-columns: auto repeat(2);
-        grid-template-rows: auto repeat(7);
+        grid-template-rows: auto repeat(8);
         gap: 2px 2px;
         grid-auto-flow: row;
         grid-template-areas:
-          "logo nav"
+          "logo ."
+          "nav ."
           "img1 ."
           "img2 ."
           "img3 ."
@@ -89,7 +90,4 @@ nav ul li
         align-items: center;
       }
 
-      .img1 {grid-area: img1;
-      width: 30%;
-    display: flex;}
   }
