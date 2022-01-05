@@ -1,3 +1,7 @@
+body {
+    font-family: 'M PLUS 1p', sans-serif;
+    
+}
 .container {  display: grid;
     grid-template-columns: auto repeat(3);
     grid-template-rows: auto repeat(4);
