@@ -6,7 +6,7 @@ body {
 .container {  display: grid;
     grid-template-columns: auto repeat(3);
     grid-template-rows: auto repeat(4);
-    gap: 1px 1px;
+    gap: 2px 2px;
     grid-auto-flow: row;
     grid-template-areas:
       "logo nav nav"
@@ -97,6 +97,7 @@ nav ul li
           "copy ."
           "footer ."
           "contactos . ";
+          overflow-x: hidden;
       }
 
       .img1 {grid-area: img1;
