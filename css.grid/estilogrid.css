@@ -38,7 +38,7 @@ body {
       justify-content: center;
       padding: 10px;
       padding-top: 5px;
-      width: 80%;
+      width: 100%;
       top: 20px;
       position: sticky;
       flex-direction: row;
@@ -55,7 +55,8 @@ body {
     background-color: #d58de457;
     border-color: lightpink;
     align-items: center;
-    width: 90%;
+    width: 100%;
+    height: auto;
     position: fixed;
   }
 
@@ -73,7 +74,7 @@ nav ul li
 
 .copy, .footer, .contactos {
       background-color: rgb(204, 172, 199);
-      width: 90%;
+      width: 100%;
       padding: 15px;
       padding-top: 35px;
       text-align: center;
@@ -100,13 +101,16 @@ nav ul li
 
       .img1 {grid-area: img1;
         display: flex; 
-        width: 100%;}
+        width: 100%;
+        height: auto;}
     
       .img2 {grid-area: img2;
         display: flex;
-       width: 100%;}
+       width: 100%;
+      height: auto;}
 
       .img3 {grid-area: img3;
       display: flex;
-      width: 100%;}
+      width: 100%;
+      height: auto;}
   }
