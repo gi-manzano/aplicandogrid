@@ -100,17 +100,17 @@ nav ul li
       }
 
       .img1 {grid-area: img1;
-        display: flex; 
+        display: flex;
         width: 100%;
         height: auto;}
     
       .img2 {grid-area: img2;
         display: flex;
-       width: 100%;
-      height: auto;}
+        width: 100%;
+        height: auto;}
 
       .img3 {grid-area: img3;
-      display: flex;
-      width: 100%;
-      height: auto;}
+        display: flex;
+        width: 100%;
+        height: auto;}
   }
