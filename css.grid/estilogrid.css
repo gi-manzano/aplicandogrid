@@ -55,7 +55,7 @@ body {
     background-color: #d58de457;
     border-color: lightpink;
     align-items: center;
-    width: 100%;
+    width: 90%;
     position: fixed;
   }
 
@@ -73,7 +73,7 @@ nav ul li
 
 .copy, .footer, .contactos {
       background-color: rgb(204, 172, 199);
-      width: 100%;
+      width: 90%;
       padding: 15px;
       padding-top: 35px;
       text-align: center;
