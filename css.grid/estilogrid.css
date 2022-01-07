@@ -1,11 +1,12 @@
 body {
     font-family: 'M PLUS 1p', sans-serif;
     
+    
 }
 .container {  display: grid;
     grid-template-columns: auto repeat(3);
     grid-template-rows: auto repeat(4);
-    gap: 2px 2px;
+    gap: 1px 1px;
     grid-auto-flow: row;
     grid-template-areas:
       "logo nav nav"
@@ -47,7 +48,7 @@ body {
   div .nav
   { 
     grid-area: menu;
-    display: grid;
+    display: flex;
     justify-content: center;
     padding: 25px;
     padding-top: 0px;
@@ -68,6 +69,8 @@ nav ul li
     position: relative;
   }
 
+
+
 .copy, .footer, .contactos {
       background-color: rgb(204, 172, 199);
       width: 100%;
@@ -83,7 +86,6 @@ nav ul li
     .container {  display: grid;
         grid-template-columns: auto repeat(2);
         grid-template-rows: auto repeat(8);
-        gap: 2px 2px;
         grid-auto-flow: row;
         grid-template-areas:
           "logo ."
@@ -94,7 +96,17 @@ nav ul li
           "copy ."
           "footer ."
           "contactos . ";
-        justify-items: center;
       }
 
+      .img1 {grid-area: img1;
+        display: flex; 
+        width: 100%;}
+    
+      .img2 {grid-area: img2;
+        display: flex;
+       width: 100%;}
+
+      .img3 {grid-area: img3;
+      display: flex;
+      width: 100%;}
   }
