@@ -24,7 +24,7 @@ ul {
   
   .logo { grid-area: logo; }
   
-  .nav { grid-area: nav; display: grid; }
+  .nav { grid-area: nav; }
   
   .img1 { grid-area: img1; }
   
